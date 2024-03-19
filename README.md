@@ -39,7 +39,7 @@ O Git ajuda você a controlar suas alterações de código, enquanto o Github fa
 
 ### Cheat Sheet
 
-Uma [*colinha*](./DocumentosDeApoio/GitGithubCheatSheet.md) para os comandos **git**
+Uma https://github.com/ThePixelWave/AgroVerde/blob/main/Guia%20sobre%20Git para os comandos **git**
 
 <p align="right">(<a href="#readme-top">back to top</a>)
 
