@@ -4,43 +4,73 @@
   <h1 align=center>Projeto Aplicado - FHO</h1>
 </div>
 
-## 🗃️ Tabela de Conteúdo
-- **[Git e Github](#git-e-github)**
-  - *[O que é e para que serve](#o-que-e-e-pra-que-serve)*
-  - *[Como Git e Github se complementam](#como-git-e-github-se-complementam)*
-  - *[Cheat Sheet](#cheat-sheet)*
-  - *[Dicas e boas práticas]()*
-- **[Branches](#branches)**
-  - *[O que é e para que serve]()*
-  - *[Organização das branches]()*
-  - *[Dicas e boas práticas]()*
+## Git e GitHub
 
-<hr name="sobre-o-grupo-x">
+ - *[O que é e para que serve ?](#o-que-e-e-pra-que-serve)*
 
-## 🟣 Git e GitHub
+> O **GitHub** é uma plataforma de repositório de códigos, permitindo um trabalho em equipe de forma ágil e eficiente
+> 
+> O **Git Bash** é uma ferramenta de versionamento de código, que possui automações integradas com o **GitHub**
+> 
+> Essa duas ferramentas serão nesse trabalho, para podermos trabalhar em equipe de forma produtiva
+>
+## Instalação do Git Bash
 
->*É realmente importante saber?*
+> https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
+>
 
->Na realidade, é muito importante ter conhecimento sobre estas poderosas ferramentas pois são essenciais para o controle de versão do código-fonte, colaboração em equipe e práticas de desenvolvimento modernas, sendo também uma habilidade valorizada no mercado de trabalho.
+## Comandos básicos do Git Bash
 
-<div name="o-que-e-e-pra-que-serve"></div>
+Configurando informações de usuário usadas em todos os repositórios locais:
 
-### O que é? Para que serve?
+>Defina um nome que para ser o seu identificador dentro do código.
+~~~sh
+git config --global user.name "[nome sobrenome]"
+~~~
 
-De maneira sucinta, ***Git*** é uma ferramenta que permite controlar as alterações em arquivos ao longo do tempo, útil para projetos de software, já o ***Github*** é um lugar online onde você pode armazenar e compartilhar seus projetos Git com outras pessoas.
+<br>
 
-<div name="como-git-e-github-se-complementam"></div>
+>Defina um endereço de email que será associado a cada marcador de histórico.
+>De prefência use o mesmo email cadastrado na sua conta do github
+~~~sh
+git config --global user.email "[email-válido]"
+~~~
 
-### Como Git e GitHub se complementam
+<br>
 
-O Git ajuda você a controlar suas alterações de código, enquanto o Github facilita o compartilhamento dessas alterações com outras pessoas. Você usa o Git no seu computador para gerenciar seu código, e o Github para compartilhá-lo e colaborar com outros.
+## CONFIGURAÇÃO E INICIALIZAÇÃO
 
-<div name="cheat-sheet"></div>
+Clonando os repositórios
 
-### Cheat Sheet
+>Recupera um repositório inteiro de um local hospedado via URL.
+>Essa URL, é vista na página inicial do repositório, em um botão verde chamado **code**
+~~~sh
+git clone [url]
+~~~
 
-Uma https://github.com/ThePixelWave/AgroVerde/blob/main/Guia%20sobre%20Git para os comandos **git**
+<br>
 
-<p align="right">(<a href="#readme-top">back to top</a>)
+>Criar uma branch
+~~~sh
+git checkout -b [nome da branch]
+~~~
 
-<hr name="branches">
+<br>
+
+>Transmite commits da branch local para a branch remota do repositório.
+~~~sh
+git push origin [nome da branch]
+~~~
+
+<br>
+
+>Baixa e mescla quaisquer commits da branch remota de rastreamento.
+~~~sh
+git pull origin main 
+~~~
+<br>
+
+>Mostra as diferenças do que foi alterado mas não foi preparado (staged).
+~~~sh
+git diff
+~~~
