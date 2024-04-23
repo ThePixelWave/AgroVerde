@@ -19,7 +19,7 @@
 > https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
 >
 
-## Comandos básicos do Git Bash
+## Configuração inicial
 
 Configurando informações de usuário usadas em todos os repositórios locais:
 
@@ -37,8 +37,8 @@ git config --global user.email "[email-válido]"
 ~~~
 
 <br>
-
-## CONFIGURAÇÃO E INICIALIZAÇÃO
+ 
+## Comandos básicos do Git Bash
 
 Clonando os repositórios
 
@@ -70,7 +70,7 @@ git pull origin main
 ~~~
 <br>
 
->Mostra as diferenças do que foi alterado mas não foi preparado (staged).
+>Mostra as diferenças do que foi alterado 
 ~~~sh
 git diff
 ~~~
