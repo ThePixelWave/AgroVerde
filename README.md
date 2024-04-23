@@ -6,7 +6,7 @@
 
 ## Git e GitHub
 
- - *[O que é e para que serve ?](#o-que-e-e-pra-que-serve)*
+ - ### O que é e para que serve ?
 
 > O **GitHub** é uma plataforma de repositório de códigos, permitindo um trabalho em equipe de forma ágil e eficiente
 > 
